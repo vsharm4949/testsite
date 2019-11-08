@@ -1,5 +1,5 @@
 {
-  "name": "mlsite",
+  "name": "testsite",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,11 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
     "pug": "^2.0.4"
   }
 }
