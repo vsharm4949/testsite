@@ -1,8 +1,29 @@
+/*
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+*/
+
+body {
+  padding: 40px 10px;
+  background-color: #eee;
+}
+
 
 a {
   color: #00B7FF;
 }
+
+.display {
+  max-width: 330px;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 1 auto;
+}
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
