@@ -1,0 +1,37 @@
+{
+    "profiles": [
+      {
+        "firstname": "Rafael",
+        "lastname": "Nadal",
+        "bio":
+          "Rafael Nadal was born in Mallorca, Spain, on June 3, 1986. When Nadal was just 12 years old, he won the Spanish and European tennis titles in his age group. He turned professional at age 15.",
+        "tagline": "Ranked world no. 1",
+        "twitter": "https://twitter.com/RafaelNadal",
+        "imgSrc": "nadal.jpg",
+        "id": "nadal"
+      },
+  
+      {
+        "firstname": "Novak",
+        "lastname": "Djokovic",
+        "bio":
+          "Novak Djokovic (born May 22, 1987, Belgrade, Yugoslavia [now in Serbia]) is a Serbian tennis player who was one of the game's premier performers in the early 21st century, when he won 16 Grand Slam titles.",
+        "tagline": "Ranked world no. 2",
+        "twitter": "https://twitter.com/DjokerNole",
+        "imgSrc": "djokovic.jpg",
+        "id": "djokovic"
+      },
+  
+      {
+        "firstname": "Roger",
+        "lastname": "Federer",
+        "bio":
+          "Roger Federer (born August 8, 1981, Basel, Switzerland) is a Swiss tennis player who dominated the sport in the early 21st century with his exceptional all-around game. His total of 20 career men's singles Grand Slam championships is the most in tennis history.",
+        "tagline": "Ranked world no. 3",
+        "twitter": "https://twitter.com/rogerfederer",
+        "imgSrc": "federer.jpg",
+        "id": "federer"
+      }
+    ]
+  }
+  
