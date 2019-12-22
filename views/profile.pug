@@ -1,0 +1,17 @@
+extends layout
+
+block header
+
+block content
+    div.profile
+        div.profile-image(style=`background: url('/images/${player.imgSrc}') top center
+        no-repeat; background-size: cover;`)
+        div.profile-details
+            h1.profile-name
+                | #{player.firstname} #{player.lastname}
+            h2.profile-tagline
+                | #{player.tagline}
+            p.profile-bio
+                | #{player.bio}
+            a.button.button-twitter(href=`${player.twitter}`)
+                | Twitter
