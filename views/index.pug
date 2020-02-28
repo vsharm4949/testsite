@@ -2,6 +2,8 @@ extends layout
 
 block content
   div.container
+    //- each player in players
+    //-   li= player.firstname
     each player in players
       div.player
         div.player-image(style=`background: url('/images/${player.imgSrc}') top center

@@ -1,0 +1,7 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE players(first varchar(255), last varchar(255), id varchar(255));
+INSERT INTO players VALUES('Novak','Djokovic','djokovic');
+INSERT INTO players VALUES('Roger','Federer','federer');
+INSERT INTO players VALUES('Rafael','Nadal','nadal');
+COMMIT;
