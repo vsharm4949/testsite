@@ -22,13 +22,13 @@ let db = new sqlite3.Database('./db/test.db', (err) => {
   console.log('Connected to the in-memory SQLite database');
 });
 
-// Close the database connection
-db.close((err) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log('Close the database connection.')
-});
+// // Close the database connection
+// db.close((err) => {
+//   if (err) {
+//     return console.error(err.message);
+//   }
+//   console.log('Close the database connection.')
+// });
 
 // view engine setup
 app.engine('pug', require('pug').__express)

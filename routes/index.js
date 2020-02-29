@@ -28,7 +28,10 @@ router.get('/', (req, res) => {
         var player = {
           'firstname': row.first,
           'lastname': row.last,
-          'imgSrc': row.imgSrc,
+          'bio': row.bio,
+          'tagline': row.tagline,
+          'twitter': row.twitter,
+          'img': row.img,
           'id': row.id
         }
         players.push(player);
